@@ -1,0 +1,46 @@
+html {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+header h1 {
+  padding: 0px 15px;
+  margin: 0px;
+}
+
+.getGithubRepoByUser input, .getGithubRepoByUser button  {
+  margin: auto;
+  display: block;
+}
+
+.repos li {
+  display: block;
+  border-style: solid;
+  border-width: thin;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.repos li:checked {
+  background-color: #bfb;
+}
+
+.repos li:focus{
+  background-color: #dfd;
+}
+
+.repos li:hover {
+  background-color: #dfd;
+}
+
+.repos li:active {
+  background-color: #dfd;
+}
